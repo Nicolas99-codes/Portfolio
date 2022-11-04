@@ -1,0 +1,87 @@
+html {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 24px;
+    line-height: 26px;
+    color: #f04c25;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 18px;
+    line-height: 20px;
+    color: #009cab;
+    font-weight: normal;
+}
+
+p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #111111;
+    font-weight: 300;
+    width: 960px;
+}
+
+img {
+    width: 300px;
+    padding: 10px;
+}
+
+.profile {
+    vertical-align: middle;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+article {
+    display: inline-block;
+    vertical-align: top;
+    width: 960px;
+    padding: 10px;
+}
+
+aside {
+    display: inline-block;
+    background-color: grey;
+    vertical-align: top;
+    width: 90px;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+}
+
+footer {
+    position: fixed;
+    text-align: center;
+    bottom: 0%;
+    width: 100%;
+}
+
+.Link {
+    color: transparent;
+    overflow: hidden;
+    display: inline-block;
+    z-index: -1;
+}
+
+nav.navigationbar {
+    display: flex;
+    justify-content: end;
+    justify-content: space-between;
+    justify-content: right;
+}
+
+div.navigationbar {
+
+}
+
+div.Copyright-icon {
+    text-align: center;
+    padding: 1rem;
+}
